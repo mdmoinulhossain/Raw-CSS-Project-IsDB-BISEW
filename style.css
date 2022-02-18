@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	height:100vh;
+}
+
+.navbar-style{
+	box-shadow: 0 5px 10px #0000FF;
+	
+}
+
+.logo {height:80px;
+padding:2px 5px;
+}
+
+.icon-bar{ 
+background:white;
+}
+
+.navbar-brand{ font-style:italic;
+
+}
+
+.h3-responsive{ color:#FF0;
+font-size:36px;
+}
+.lgfoot{height:50px;}
+.lgfoot1{height:40px;}
+.lgfoot2{height:30px;
+background:none;}
+
+.container2{ background-color:#099;}
+.row2{background-color:#960;
+text-align:center;
+}
+
+.body-container100{background-color:#F93;
+padding:0;
+margin:0;}
+
+.page-footer{background-color:#CCC;}
+.foot2{background-color:red;}
+
+.Aboutus{text-align:center;
+color:#900;
+font-size:48px;
+font-style:bold;
+}
+.column-title{color:#F63}
+
+.abus{background-color:#9CC;}
+
+/*pricing*/
+
+.abc{font-family:poppins;
+background:#eee;
+}
+.wrapper{
+	width:900px;
+	margin:5% auto;
+}
+
+.single-price{width: 33%;
+background:#262626;
+float:left;
+margin-top:2%;
+box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+text-align:center;
+transition: 0.9s;
+}
+
+.price{width: 120px;
+height:120px;
+border-radius: 50%;
+border: 2px solid #da4357;
+margin: 5% auto 0 auto;
+text-align:center;
+}
+
+.deals{margin-top: 10%;
+}
+
+.single-price h2 { font-size:18px;
+color:#fff;
+line-height: 3;
+text-transform:uppercase;
+}
+
+.price h3{font-size: 28px;
+color: #F00;
+padding-top:30px;
+}
+
+.deals h4{font-size: 14px;
+font-weight: normal;
+text-align:center;
+color:#fff;
+line-height: 1;
+}
+
+.single-price:hover{background:#da4357;
+color:#fff;
+box-shadow:0 0 15px rgba(0,0,0,1);
+transform:scale(1.1);
+z-index:1;
+border-radius: 25px;
+}
+
+.single-price:hover .price{
+	background-color:#fff;
+}
+
+.single-price a{text-decoration:none;
+background: #da4357;
+color:#fff;
+padding: 10px 60px;
+display: inline-block;
+margin: 10% auto;
+text-transform:uppercase;
+font-weight:bold;
+text-decoration:none;
+}
+.single-price:hover a{background-color:#262626;
+color:#FF0;
+}
+
+.headline-pricing{color:#262626;
+text-align:center; font-weight:bolder; text-transform:uppercase; text-decoration:underline;}
+
+
+
+.contact-headbody{background:#262626;
+}
+.contact-headbody h1{color:#fff;
+text-align:center;
+text-decoration:underline;}
+.contact-headbody p{color:#F33;
+font-style:italic;
+text-align:justify;
+padding:0px 10px 0px 10px;
+}
+
+.contact-headbody ul{color:#FF0;
+list-style-type:square;
+padding-left:50px;
+}
+
+
+.contact {background:#999;
+background-size:cover;
+}
+hr{ background:white;}
+
+.contact-form{background-color:rgba(0,0,0,.6);
+color:white;
+margin-top:100px;
+padding:20px;
+box-shadow: 0px 0px 10px 3px grey;
+}
+
